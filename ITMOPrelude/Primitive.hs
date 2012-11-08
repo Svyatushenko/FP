@@ -115,7 +115,7 @@ natMod n = snd . natDivMod n -- Остаток
 gcd :: Nat -> Nat -> Nat
 gcd n Zero = n
 gcd n m    = gcd m (natMod n m)
-
+                                
 -------------------------------------------
 -- Целые числа
 
